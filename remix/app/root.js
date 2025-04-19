@@ -4,10 +4,10 @@ import { Provider, useSelector } from 'react-redux';
 // project imports
 import { store } from 'store';
 import theme from 'themes';
-import NavigationScroll from 'layout/NavigationScroll';
-import MainLayout from 'layout/MainLayout';
-import MinimalLayout from 'layout/MinimalLayout';
-import Error from 'error';
+import NavigationScroll from './layout/NavigationScroll';
+import MainLayout from './layout/MainLayout';
+import MinimalLayout from './layout/MinimalLayout';
+import Error from './error';
 
 // material-ui
 import { CssBaseline, StyledEngineProvider } from '@mui/material';
@@ -46,10 +46,10 @@ export const links = () => [
 // export meta
 export const meta = () => ({
     charset: 'utf-8',
-    title: 'Berry - React Material Admin Dashboard Template',
+    title: 'Linh Linh xinh yêu',
     viewport: 'width=device-width,initial-scale=1',
     description:
-        'Start your next React project with Berry admin template. It build with Reactjs, Material-UI, Redux, and Hook for faster web development.'
+        ''
 });
 
 // ================================|| APP ||================================ //
